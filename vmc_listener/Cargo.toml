@@ -1,0 +1,11 @@
+[package]
+name = "vmc_listener"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+bevy = ["dep:bevy", "dep:bevy_vrm"]
+
+[dependencies]
+bevy = { version = "0.13", optional = true, default-features = false }
+bevy_vrm = { version = "0.0.10", optional = true }
