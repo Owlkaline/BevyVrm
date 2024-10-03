@@ -1,0 +1,9 @@
+[package]
+name = "bevy_vrm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.13"
+bevy_vrm = "0.0.10"
+vmc_listener = { path = "../vmc_listener", features = ["bevy"] }
